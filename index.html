@@ -1,45 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="español">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Repo final</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yo soy Damian</title>
+        <style>
+            /* Estilos para el encabezado */
+            header {
+                background-color: #fdbf5c; /* verdecito */
+                color: #1d2440;
+                padding: 60px 20px;
+                text-align: center;
+                font-family: Arial, sans-serif;
+                font-size: 2.5em;
+                font-weight: bold;
+                border-bottom: 5px solid #f69a0b;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+            /* Animación para el texto */
+            h1 {
+                animation: slide-in 1s ease-in-out forwards;
+                opacity: 0;
+            }
+            /* Definición de la animación */
+            @keyframes slide-in {
+                0% {
+                    transform: translateY(-50px);
+                    opacity: 0;
+                }
+                100% {
+                    transform: translateY(0);
+                    opacity: 1;
+                }
+            }
+            /* Estilos para el contenido */
+            .content {
+                background-color: #79aad7; /* Fondo rojo de la segunda parte */
+                color: #fdbf5c;
+                padding: 40px 20px;
+                text-align: center;
+                font-family: Arial, sans-serif;
+                font-size: 1.2em;
+                line-height: 1.6;
+            }
+        /* Estilos para el main y las secciones */
+        main {
+            padding: 40px 20px;
+            background-color: #eedfd1; /* Fondo claro para el main */
+            font-family: Arial, sans-serif;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* Estilo de las secciones dentro del main */
+        section {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h2 {
+            color: #9b0800;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        p, span, ul, ol, li {
+            font-size: 1em;
+            color: #333;
+        }
+
+        /* Estilo para las listas */
+        ul, ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        
+        /* Enlace personalizado */
+        a {
+            color: #9b0800;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilo específico para la sección de gustos */
+        .gustos {
+            background-color: #f0f9ff;
+        }
+        </style>
 </head>
+<!-- A partir de aqui voy a ir copiando cosas de un lugar, a ver si se ve bonito -->
 <body>
     <header>
-        <h1 style="text-align: center;color: blue;"> Repo final</h1>
-        <p>Este es el repo final de la materia del primer modulo de Front End AI</p>
+        <h1>Yo soy Damián</h1>
     </header>
+    
+    <!-- Sección de contenido adicional -->
+    <section class="content">
+        <p>Hola! Bienvenidx a mi página. Aquí podrás encontrar información sobre mis proyectos, intereses y más.</p>
+        <p>Me apasiona la ciencia y la tecnología enfocada a la salud y la alimentación, y siempre estoy en busca de soluciones creativas y accesibles para problemas complejos. ¡Explora y conoce más sobre lo que hago!</p>
+    </section>
     <main>
         <section>
-            <h2>Nombre</h2>
-            <p>Yo soy Damian, bienvenides</p>
-            <h2>Acerca de mi</h2>
-            <span> Un super textote puedo ponerle aqui</span>
-            <a href="./about.html">Acerca de mi</a>
+            <h2>Un joven curioso</h2>
+            <p>Desde niño siempre me gustó aprender sobre casi cualquier cosa, mas no es que no encuentre mi vocación, sino que considero que aprender sobre todo te abre los ojos para conocer mejor el mundo.</p>
+            <h2>Acerca de mí</h2>
+            <span>Si estás leyendo esto, es muy probable que estés conmigo en esta aventura de Bécalos y Dev.f. Y así como tú, estoy aprendiendo sobre el uso de aplicaciones para programación. Aparte de ello, estudio Ingeneiría en Biotecología, tengo un proyecto de investigación y deseo formar parte de todo lo que se pueda.</span>
+            <p><a href="./about.html">Más sobre mí</a></p>
         </section>
-        <section class="seccion gustos">
+        
+        <section class="gustos">
             <h2>Gustos</h2>
             <ul>
-                <li>Me gusta la musica</li>
-                <li>Me gusta la comida</li>
-                <li>Me gustan los libros</li>
+                <li>Me gusta escuchar música</li>
+                <li>Me gusta la experiencia de comer, especialmente aquella que no he probado antes</li>
+                <li>Me gusta leer libros de realismo mágico moderno</li>
+                <li>Me gusta aprender cosas nuevas de ciencia y cultura</li>
             </ul>
         </section>
+        
         <section>
-            <h2>Estidios</h2>
+            <h2>Estudios</h2>
             <ol>
-                <li>Frances B2</li>
-                <li>Ingles B2</li>
+                <li>Actualmente en Dev.f</li>
+                <li>Ingeniería en Biotecnología</li>
+                <li>Preparación para HSK 1 en chino</li>
+                <li>Primeros auxilios psicológicos</li>
+                <li>Francés B2</li>
+                <li>Inglés B2</li>
             </ol>
         </section>
+        
         <section>
             <h2>Experiencia</h2>
             <ol>
-                <li>Generación de contenido</li>
-                <li>Logistica en eventos</li>
+                <li>He viajado a tres países distintos, y me he llevado mucho de esos viajes</li>
+                <li>Mi primer experiencia en un congreso nacional fue en Puerto Vallarta</li>
+                <li>Entré a TEDx, y quiero formar parte de logística o curaduría</li>
             </ol>
         </section>
     </main>
+
 </body>
 </html>

@@ -21,4 +21,4 @@ Para desplegar este proyecto en tu entorno local, sigue estos pasos:
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone https://damiancoropeza.github.io/Repo-final/
+   git clone https://github.com/DamianCOropeza/Repo-final.git
